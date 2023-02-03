@@ -14,8 +14,6 @@ public class Scannerpractice1 {
 		System.out.println("enter the second value:");
 		b=s.nextInt();
 		
-	    
-	
 	     System.out.println("enter 1 for add,2 for sub, 3 for mul");
 	     
 	     c=s.nextInt();
@@ -34,7 +32,8 @@ public class Scannerpractice1 {
 	    
 	     }
 	      System.out.println("the value is :"+ sum);
-	    s.nextInt();
+	      
+	      s.close();
 	        
 	}
 	
